@@ -60,3 +60,5 @@ is used in another flutter package that helps editing hocr files.
 Refer it for more details.
 
 TODO: Provide a link to flutter HOCR Editor
+
+Couple of sample hocr files are provided in example/data/hocr_files
