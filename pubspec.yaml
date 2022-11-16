@@ -1,6 +1,7 @@
 name: dart_hocr
 description: A DART model for HOCR XML.
 version: 0.1.0
+repository: https://github.com/cloudonlanapps/dart_hocr
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
