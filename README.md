@@ -9,6 +9,10 @@ This project is under development  and I am open to any suggestions.
 HOCR is a representation of various aspects of OCR output in an XML-like format. 
 Refer [HOCR Specifications](https://kba.github.io/hocr-spec/1.2/) for more details
 
+### References
+[Wikipedia](https://en.m.wikipedia.org/wiki/HOCR)
+[hocr-spec-python](https://github.com/kba/hocr-spec-python#command-line-interface)
+
 ## Models:
 This package contains a model that imports/exports HOCR XML into/from a Dart object. This model also supports few functionality required to implement a HOCR Viewer, as follows:
     

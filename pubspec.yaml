@@ -1,5 +1,7 @@
 name: dart_hocr
-description: A DART model for HOCR XML.
+description: 
+  The objective of this project is to come up with a flexibile model for HOCR 
+   XML files for CRUD operations in it.
 version: 0.1.0
 repository: https://github.com/cloudonlanapps/dart_hocr
 
