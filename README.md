@@ -53,3 +53,10 @@ While, importing the data is processed for cleaning up to correct the alignment,
 order etc, all are experimental now. Hoping to improve slowly. If any text misses, first disable the experimental features.
 
 TODO: Provide an option to programatially disalble/enable processinng
+
+# example:
+a very simple application is provided to understand this package. This package 
+is used in another flutter package that helps editing hocr files. 
+Refer it for more details.
+
+TODO: Provide a link to flutter HOCR Editor
