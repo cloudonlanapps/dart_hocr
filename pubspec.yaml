@@ -11,5 +11,4 @@ dev_dependencies:
 
 dependencies:
   image: ^3.2.2
-  package_config: ^2.1.0
   xml: ^6.1.0
