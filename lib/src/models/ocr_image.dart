@@ -17,17 +17,18 @@ class OCRImage {
   final String lang1;
   final String? lang2;
   final String xml;
-  OCRImage({
-    this.id,
-    this.title,
-    this.image,
-    required this.thumbnail,
-    required this.width,
-    required this.height,
-    required this.lang1,
-    this.lang2,
-    required this.xml,
-  });
+  final bool edittable;
+  OCRImage(
+      {this.id,
+      this.title,
+      this.image,
+      required this.thumbnail,
+      required this.width,
+      required this.height,
+      required this.lang1,
+      this.lang2,
+      required this.xml,
+      this.edittable = true});
 
   OCRImage copyWith({
     int? id,
@@ -39,18 +40,19 @@ class OCRImage {
     String? lang1,
     String? lang2,
     String? xml,
+    bool? edittable,
   }) {
     return OCRImage(
-      id: id ?? this.id,
-      title: title ?? this.title,
-      image: image ?? this.image,
-      thumbnail: thumbnail ?? this.thumbnail,
-      width: width ?? this.width,
-      height: height ?? this.height,
-      lang1: lang1 ?? this.lang1,
-      lang2: lang2 ?? this.lang2,
-      xml: xml ?? this.xml,
-    );
+        id: id ?? this.id,
+        title: title ?? this.title,
+        image: image ?? this.image,
+        thumbnail: thumbnail ?? this.thumbnail,
+        width: width ?? this.width,
+        height: height ?? this.height,
+        lang1: lang1 ?? this.lang1,
+        lang2: lang2 ?? this.lang2,
+        xml: xml ?? this.xml,
+        edittable: edittable ?? this.edittable);
   }
 
   static img.Image? decodeImage(Uint8List imageData,
