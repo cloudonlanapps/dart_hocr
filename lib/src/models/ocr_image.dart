@@ -173,7 +173,7 @@ class OCRImage {
         width: rawImage.width.toDouble(),
         height: rawImage.height.toDouble(),
       );
-    } catch (e) {
+    } on Exception catch (e) {
       throw Exception(e);
     }
   }
@@ -207,7 +207,7 @@ class OCRImage {
     try {
       final Map<String, dynamic> map = jsonDecode(content);
       return map['content']['contentType'] == 'ocr_image';
-    } catch (e) {
+    } on Exception {
       return false;
     }
   }
