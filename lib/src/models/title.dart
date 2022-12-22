@@ -52,8 +52,6 @@ class Title {
           break;
         default:
           properties[key] = values;
-        // ignore: todo
-        // TODO: Check if anything missed
       }
     }
 
